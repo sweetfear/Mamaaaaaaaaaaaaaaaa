@@ -8,6 +8,9 @@ public class Main {
         System.out.println();
 
     }
+    public static int asdsad(int a , int b){
+        return a + b;
+    }
 
    public static Double calculate(double a, double b,DoubleBinaryOperator operator){
         return operator.applyAsDouble(a,b);
